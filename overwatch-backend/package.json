@@ -1,0 +1,28 @@
+{
+  "name": "restful-crud-node-server",
+  "version": "1.0.0",
+  "description": "RESTful CRUD Node Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennyStephens/RESTful-CRUD-Node-Server.git"
+  },
+  "author": "Kenny Stephens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KennyStephens/RESTful-CRUD-Node-Server/issues"
+  },
+  "homepage": "https://github.com/KennyStephens/RESTful-CRUD-Node-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
