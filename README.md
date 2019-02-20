@@ -12,11 +12,13 @@ Deployed to Heroku: [https://secure-reef-86107.herokuapp.com](https://secure-ree
 
   *Submit new character through postman in the following format*
 ```
-  name: character name,
-  ultimate: character ultimate,
-  class: character class,
-  weapon: character weapon
+  "name": "character name",
+  "ultimate": "character ultimate",
+  "class": "character class",
+  "weapon": "character weapon",
+  "imageUrl": "image URL",
+  "quote": "character quote"
 ```
-To post a new character follow the following:
+To delete/push a new character follow the following:
 - "/delete/:id" - Delete a character
 - "/put/:id" - Update a character
