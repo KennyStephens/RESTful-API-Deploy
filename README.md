@@ -2,7 +2,7 @@
 ## Overwatch Character API
 
 ##### **Deployment**
-Deployed to Digital Ocean
+Deployed to Heroku: [https://secure-reef-86107.herokuapp.com](https://secure-reef-86107.herokuapp.com)
 
 ##### **[Routes](https://github.com/KennyStephens/RESTful-CRUD-Node-Server/blob/master/routes/overwatch.routes.js)**
 - "/" - Get all characters in Database
