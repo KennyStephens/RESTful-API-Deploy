@@ -17,6 +17,9 @@
     "url": "https://github.com/KennyStephens/RESTful-CRUD-Node-Server/issues"
   },
   "homepage": "https://github.com/KennyStephens/RESTful-CRUD-Node-Server#readme",
+  "engines": {
+    "node": "10.15.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
