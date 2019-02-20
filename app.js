@@ -22,10 +22,12 @@ app.use((req, res, next) => {
 
 app.use('/', overwatchRouter);
 
+const port = (process.env.PORT || 5000);
+
 mongoose.connect('mongodb+srv://kenkneesteefens:Nodecourse@cluster0-drydi.mongodb.net/overwatch', {
   useNewUrlParser: true
 }, () => {
-  app.listen(5000, () => {
-    console.log('Server is Running on port 5000');
+  app.listen(port, () => {
+    console.log(`Server is Running on port ${port}`);
   });
 });
