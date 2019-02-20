@@ -28,6 +28,6 @@ mongoose.connect('mongodb+srv://kenkneesteefens:Nodecourse@cluster0-drydi.mongod
   useNewUrlParser: true
 }, () => {
   app.listen(port, () => {
-    console.log(`Server is Running on port ${port}`);
+    console.log(`Server is Running on port: ${port}`);
   });
 });
