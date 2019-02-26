@@ -11,7 +11,9 @@ exports.getAllCharacters = async (req, res, next) => {
 };
 
 exports.getOneCharacter = (req, res, next) => {
-  const characterName = req.params.name;
+  let characterName = req.params.name;
+  characterName = characterName.charAt(0).toUpperCase() + characterName.slice(1);
+  console.log(characterName);
 
   OwCharacter.find({
       name: characterName
@@ -23,7 +25,8 @@ exports.getOneCharacter = (req, res, next) => {
 };
 
 exports.getByClass = (req, res, next) => {
-  const characterClass = req.params.class;
+  let characterClass = req.params.class;
+  characterClass = characterClass.charAt(0).toUpperCase() + characterClass.slice(1);
   OwCharacter.find({
       class: characterClass
     })
