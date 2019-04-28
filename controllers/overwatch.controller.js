@@ -56,7 +56,7 @@ exports.postOneCharacter = (req, res, next) => {
   character.save()
     .then(result => {
       res.status(201)
-        .redirect('http://localhost:8080/')
+        .redirect('https://distracted-albattani-e811d6.netlify.com/#/')
     })
     .catch(err => console.log(err));
 };
